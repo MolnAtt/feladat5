@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    text-align: center;
+    padding:50px;
+}
+
+body{
+    background-color: darkkhaki;
+}
+
+nav ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    justify-items: stretch;
+}
+
+nav ul li{
+    text-align: center;
+}
+
+nav ul li ul{ 
+    display: grid;
+    grid-template-columns: auto;
+}
+
+nav ul li ul li{
+    display: none;
+
+}
+
+nav ul li ul li:hover{
+    display: block;
+}
+
+nav ul li:hover{
+    background-color: rgba(255, 255, 255, 0.468);
+}
+
+/* footer fekete háttér előtt fehér szöveg, aláhúzás nélkül */
+
+footer{
+    color:whitesmoke;
+    background-color:darkslategray;
+    text-align: center;
+    padding:15px;
+    box-shadow: 0 -10px 15px black;
+}
+
+
+
+footer a{
+    color:whitesmoke;
+    text-decoration: none;
+    transition: 1s;
+    padding:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    width:50%;
+    margin: 0 auto 50px auto;
+    background-color: rgba(0, 0, 0, 0.214);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+/* main{
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+} */
+
+p{
+    margin:10px;
+    line-height: 3ex;
+    text-align: justify;
+    padding:50px;
+}
+footer a:hover{
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15pt;
+}
