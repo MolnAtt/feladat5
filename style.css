@@ -25,17 +25,16 @@ nav ul li{
 }
 
 nav ul li ul{ 
-    display: grid;
     grid-template-columns: auto;
 }
 
-nav ul li ul li{
+nav ul li ul{
     display: none;
 
 }
 
-nav ul li ul li:hover{
-    display: block;
+nav ul li:hover ul{
+    display: grid;
 }
 
 nav ul li:hover{
@@ -88,3 +87,4 @@ footer a:hover{
     font-weight: bold;
     font-size: 15pt;
 }
+
